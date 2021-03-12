@@ -82,11 +82,11 @@ section {
 	margin: auto;
 }
 .img_sun {
-	widfth: 600px;
+	width: 600px;
 }
 .intro_ {
 	width: 100%;
-	max-wfidth: 650px;
+	max-width: 650px;
 	color: rgb(234, 243, 250);
 	margin: auto;
     vertical-align: center;
