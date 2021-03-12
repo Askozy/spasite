@@ -1,0 +1,192 @@
+body {
+    font-family: 'Numans', sans-serif;
+    font-size: 10px;
+    color: #333;
+    line-height: 1.6;
+    background: url("../images/dddd.jpg") center;
+    background-color: #2a3b40;
+    margin: 0 auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+/*настино*/
+.header {
+	width: 100%;
+	
+	
+}
+.header_inner {
+	width: 100%;
+	max-width: 1300px;
+	margin: 60px auto;
+	font-size: 18px;
+    font-weight: 700;
+	color: rgb(245, 164, 195);
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav {
+	width: 100%;
+	max-width: 500px;
+	display: flex;
+    text-transform: uppercase;
+	justify-content: space-between;
+    
+}
+.nav_link:hover {
+	color: rgb(95, 143, 216);
+	text-shadow: 0 0 15px rgb(37, 50, 92);
+	transform: scale(0.9, 0.9);
+	transition: 0.3s;
+}
+
+section {
+	width: 100%;
+	background: url('images/Kosmos.jpg');
+	background-size: cover;
+}
+.section {
+	width: 100%;
+	position: relative;
+	
+}
+.intro {
+	width: 100%;
+	max-width: 1300px;
+	
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.image {
+	margin: auto;
+}
+.img_sun {
+	widfth: 600px;
+}
+.intro_ {
+	width: 100%;
+	max-wfidth: 650px;
+	color: rgb(234, 243, 250);
+	margin: auto;
+    vertical-align: center;
+}
+
+
+
+
+/**
+.header__logo {
+    margin-left: 20px;
+
+}
+.header {
+    width: 100%;
+	max-width: 1500px;
+	background-size: cover;
+}
+.nav {
+    width: 100%;
+	max-width: 500px;
+	display: flex;
+	justify-content: space-between;
+    
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    color: #969ee6;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+.header__inner {
+    width: 100%;
+	max-width: 1300px;
+	margin: 60px auto;
+    font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: rgb(161, 131, 231);
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.inner {
+    text-align: center;
+    color: white;
+    max-height: 1300px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+ .intro__img {
+    
+    position: relative;
+    vertical-align: center;
+ }
+ */
+ 
+ /* Features
+=====================*/
+
+.features {
+    background: url(/assets/images/dddd.jpg) center no-repeat;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.feat {
+    display: inline-flex;
+    
+}
+
+.features__item {
+    width: 33.33333%;
+    margin: 100px 80px 100px 60px;
+    text-align-last: center;
+}
+
+.features__icon {
+    margin-bottom: 30px;
+}
+
+.features__title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.features__text {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+    color: #FFF;
+}
