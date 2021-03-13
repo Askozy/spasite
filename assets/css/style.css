@@ -31,19 +31,20 @@ h6 {
 /*настино*/
 .header {
 	width: 100%;
-	
-	
 }
+
+
 .header_inner {
 	width: 100%;
-	max-width: 1300px;
-	margin: 60px auto;
+	max-width: 1800px;
+	margin: 50px auto;
 	font-size: 18px;
     font-weight: 700;
 	color: rgb(245, 164, 195);
 	flex: 1 1 auto;
 	display: flex;
 	justify-content: space-between;
+    justify-content: space-around;
 }
 .nav {
 	width: 100%;
@@ -51,6 +52,7 @@ h6 {
 	display: flex;
     text-transform: uppercase;
 	justify-content: space-between;
+    justify-contednt: space-around;
     
 }
 .nav_link:hover {
@@ -59,6 +61,7 @@ h6 {
 	transform: scale(0.9, 0.9);
 	transition: 0.3s;
 }
+
 
 section {
 	width: 100%;
@@ -162,14 +165,23 @@ section {
 }
 
 .feat {
-    display: inline-flex;
-    
+    display: inline-flex; 
+    flex-shrink: 1;   
 }
 
 .features__item {
     width: 33.33333%;
     margin: 100px 80px 100px 60px;
     text-align-last: center;
+    display: inline-block;
+    max-width: 1500px;
+}
+@media screen and (min-width: 800px) {
+    .features__item {
+        width: 100%;
+      
+    }
+
 }
 
 .features__icon {
