@@ -99,7 +99,7 @@ section {
 =====================*/
 
 .features {
-    background: url(/assets/images/dddd.jpg) center no-repeat;
+    background: url(assets/images/dddd.jpg) center no-repeat;
     justify-content: space-between;
     margin: 0 auto;
 }
