@@ -52,7 +52,7 @@ h6 {
 	display: flex;
     text-transform: uppercase;
 	justify-content: space-between;
-    justify-contednt: space-around;
+    
     
 }
 .nav_link:hover {
@@ -94,66 +94,6 @@ section {
 	margin: auto;
     vertical-align: center;
 }
-
-
-
-
-/**
-.header__logo {
-    margin-left: 20px;
-
-}
-.header {
-    width: 100%;
-	max-width: 1500px;
-	background-size: cover;
-}
-.nav {
-    width: 100%;
-	max-width: 500px;
-	display: flex;
-	justify-content: space-between;
-    
-}
-
-.nav_link {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    color: #969ee6;
-    text-decoration: none;
-    transition: color .1s linear;
-}
-.header__inner {
-    width: 100%;
-	max-width: 1300px;
-	margin: 60px auto;
-    font-weight: 700;
-	font-size: 18px;
-	text-transform: uppercase;
-	color: rgb(161, 131, 231);
-	flex: 1 1 auto;
-	display: flex;
-	justify-content: space-between;
-}
-.inner {
-    text-align: center;
-    color: white;
-    max-height: 1300px;
-    width: 100%;
-    justify-content: space-around;
-}
-
-.img{
-    display: flex;
-    justify-content: center;
-}
- .intro__img {
-    
-    position: relative;
-    vertical-align: center;
- }
- */
  
  /* Features
 =====================*/
@@ -174,15 +114,75 @@ section {
     margin: 100px 80px 100px 60px;
     text-align-last: center;
     display: inline-block;
-    max-width: 1500px;
+    max-width: 1600px;
 }
-@media screen and (min-width: 800px) {
-    .features__item {
-        width: 100%;
-      
+
+@media screen and (max-width: 900px) {
+    .feat{
+        display: inline-block;
+        text-align: center;
+    }
+    .features__icon {
+        width: 50%;
+    }
+   .features__item {
+       text-align: center;
+     }
+     .features__text {
+         font-size: 25px;
+         
+     }
+
+     .features__title {
+         font-size: 27px;
+     }
+     
+        
+   
+}
+@media screen and (max-width: 850px) {
+    .feat{
+        display: inline-block;
+        justify-content: space-around;
+        
     }
 
+    .nav {
+        display: none;
+    }
+
+    .header_inner {
+        justify-content: space-between;
+        margin: 60px;  
+    }
+    .logo {
+        
+        
+        text-align: left;
+        margin: 0 0;
+        justify-content: space-between;
+        
+        
+        
+        
+        
+      
+       
+        
+        
+    }
+    .features__icon {
+        width: 30%;
+    }
+   .features__item {
+    max-width: 70%;
+    text-align: center;
+    margin: 60px auto;
+    width: 600px;
+    font-size: 30px;
+    }
 }
+
 
 .features__icon {
     margin-bottom: 30px;
@@ -193,7 +193,9 @@ section {
     font-weight: 700;
     margin-bottom: 30px;
     color: #fff;
+    text-transform: uppercase;
 }
+
 
 .features__text {
     font-size: 16px;
